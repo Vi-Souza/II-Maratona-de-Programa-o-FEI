@@ -4,4 +4,4 @@ n = int(sys.stdin.readline())
 
 for i in range(n):
     print("*" * (n-i))
-    i = i - 1
+    i -= 1
