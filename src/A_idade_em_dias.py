@@ -1,6 +1,6 @@
 import sys 
 
-n = int(sys.stdin.readline().strip())
+n = int(sys.stdin.readline())
 anos = n // 365
 meses = (n % 365) // 30
 dias = (n % 365) % 30
