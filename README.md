@@ -99,6 +99,7 @@ Como parte da minha preparação contínua para futuras maratonas de programaç�
 
 ## 📂 Estrutura do Repositório
 
+```text
 ├── README.md
 ├── src/
 │   ├── A_idade_em_dias.py
@@ -106,6 +107,7 @@ Como parte da minha preparação contínua para futuras maratonas de programaç�
 │   ├── D_coordenadas_de_um_ponto.py
 │   ├── E_triangulo_asteriscos.py
 │   ├── H_matriz.py
+│   └── ... (soluções em treino)
 └── inputs/
     ├── in_A.txt
     ├── in_C.txt
@@ -120,11 +122,13 @@ Como parte da minha preparação contínua para futuras maratonas de programaç�
 
 Para rodar qualquer uma das soluções com dados via terminal ou arquivo de teste:
 
+```bash
 # Execução direta com entrada manual
 python3 src/A_idade_em_dias.py
 
 # Execução com redirecionamento de arquivo de teste
 python3 src/E_triangulo_asteriscos.py < inputs/in_E.txt
+```
 
 ---
 
